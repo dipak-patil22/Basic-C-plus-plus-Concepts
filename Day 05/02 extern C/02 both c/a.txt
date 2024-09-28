@@ -1,0 +1,47 @@
+Microsoft (R) COFF/PE Dumper Version 14.32.31329.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file Source01a.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01047A61 ABS    notype       Static       | @comp.id
+001 80010191 ABS    notype       Static       | @feat.00
+002 00000002 ABS    notype       Static       | @vol.md
+003 00000000 SECT1  notype       Static       | .drectve
+    Section length   2F, #relocs    0, #linenums    0, checksum        0
+005 00000000 SECT2  notype       Static       | .debug$S
+    Section length   98, #relocs    0, #linenums    0, checksum        0
+007 00000000 SECT3  notype       Static       | .text$mn
+    Section length   45, #relocs    3, #linenums    0, checksum 6161712A
+009 00000000 SECT4  notype       Static       | .text$mn
+    Section length    A, #relocs    1, #linenums    0, checksum 71A05264, selection    2 (pick any)
+00B 00000000 SECT5  notype       Static       | .text$mn
+    Section length   29, #relocs    2, #linenums    0, checksum 2B25B17F, selection    2 (pick any)
+00D 00000000 SECT6  notype       Static       | .text$mn
+    Section length   3A, #relocs    2, #linenums    0, checksum CAE6D625, selection    2 (pick any)
+00F 00000000 SECT4  notype ()    External     | ___local_stdio_printf_options
+010 00000000 UNDEF  notype ()    External     | ___acrt_iob_func
+011 00000000 UNDEF  notype ()    External     | ___stdio_common_vfprintf
+012 00000000 SECT5  notype ()    External     | __vfprintf_l
+013 00000000 SECT6  notype ()    External     | _printf
+014 00000000 UNDEF  notype ()    External     | _add
+015 00000000 SECT3  notype ()    External     | _main
+016 00000008 UNDEF  notype       External     | ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 (`__local_stdio_printf_options'::`2'::_OptionsStorage)
+017 00000000 SECT7  notype       Static       | .data
+    Section length    4, #relocs    0, #linenums    0, checksum 22DDD47A
+019 00000000 SECT7  notype       Static       | $SG10082
+01A 00000000 SECT8  notype       Static       | .chks64
+    Section length   40, #relocs    0, #linenums    0, checksum        0
+
+String Table Size = 0x90 bytes
+
+  Summary
+
+          40 .chks64
+           4 .data
+          98 .debug$S
+          2F .drectve
+          B2 .text$mn
